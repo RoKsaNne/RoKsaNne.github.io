@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 88px;
   padding: 0;
-  background: linear-gradient(to bottom, #e0e5df, #ffffff);
+  background: linear-gradient(to bottom, #d3e8e6, #ffffff);
   color: rgb(68, 69, 71);
 }
 
@@ -30,7 +30,7 @@ p {
 .profile-picture {
   width: 260px;
   height: 260px;
-  border-radius: 0%;
+  border-radius: 100%;
   background-color: #ffffff;
   margin-right: 28px;
   margin-left: 30px;
