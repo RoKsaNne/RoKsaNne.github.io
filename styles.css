@@ -39,7 +39,6 @@ p {
   margin-top: 20px; /* Adjusted margin at the top */
   text-align: center;
   overflow: hidden; /* Hide any overflowing content */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for better visual appeal */
 }
 
 .profile-picture img {
