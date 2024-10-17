@@ -4,7 +4,7 @@ body {
   padding: 0;
   background: linear-gradient(to bottom, #ffffff, #ffffff);
   color: rgb(68, 69, 71);
-  line-height: 1.6;
+  /* line-height: 1.6; */
 }
 
 header {
@@ -19,7 +19,7 @@ p {
 .header {
   display: flex;
   align-items: center;
-  /* padding: 20px; Add more padding around the header */
+  padding: 20px; /*Add more padding around the header*/
   color: rgb(68, 69, 71);
   /* border-bottom: 2px solid #e0e0e0; */
 }
