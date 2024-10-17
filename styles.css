@@ -1,36 +1,39 @@
+/* Global Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 88px;
   padding: 0;
   background: linear-gradient(to bottom, #d0f2ec, #ffffff);
   color: rgb(68, 69, 71);
+  line-height: 1.6;
 }
 
+/* Header Styling */
 header {
   padding: 50px;
   text-align: center; /* Center the content within the header */
 }
 
+/* Paragraph Text Styling */
 p {
   font-size: 18px; /* Adjust the value to set the desired font size */
 }
 
+/* Header Section Styling */
 .header {
   display: flex;
   align-items: center;
   padding: 10px;
-  /* background-color: #4e54c8; */
   color: rgb(68, 69, 71);
+  background-color: #f7f8fa; /* Subtle background for header */
+  border-bottom: 2px solid #e0e0e0; /* Add border to give definition */
 }
 
-.heading-text {
-  flex-grow: 1;
-}
-
+/* Profile Picture Styling */
 .profile-picture {
   width: 260px;
   height: 260px;
-  border-radius: 0; /* Change from 50% to 0 for a square shape */
+  border-radius: 0; /* Square shape */
   background-color: #ffffff;
   margin-right: 28px;
   margin-left: 30px;
@@ -43,15 +46,47 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover; /* Maintain aspect ratio */
+  border-radius: 50%; /* Smooth circular shape for a more friendly look */
+  border: 4px solid #e0e5df; /* Subtle border for profile image */
 }
 
+/* Heading Text Styling */
 .heading-text {
   flex-grow: 1;
+  padding-left: 20px;
 }
 
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+h1 span {
+  font-size: 0.8em;
+  color: #3498db; /* Add a soft color for dynamic content like location */
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+/* Links Styling */
+a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #1abc9c;
+}
+
+/* Research Section Layout */
 .three-column {
   display: flex;
   justify-content: space-between;
+  margin: 40px 0;
 }
 
 .column {
@@ -59,28 +94,83 @@ p {
   padding: 18px;
   background-color: #e0e5df;
   margin: 10px;
-}
-
-h2 {
-  text-align: center;
+  border-radius: 8px; /* Rounded corners for modern look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
 
 .column h3 {
-  font-size: 1.1em;
+  font-size: 1.3em;
+  margin-bottom: 15px;
+  color: #2c3e50;
   text-align: center;
 }
 
 .column p {
   font-size: 1.1em;
+  text-align: left;
+  line-height: 1.5;
 }
 
+/* Section Styling */
 section {
-  padding: 20px;
-  /* text-align: center; */
+  padding: 40px;
+  background-color: #f7f8fa; /* Light background for section separation */
 }
 
-footer {
-  background-color: #e0e5df;
-  /* padding: px; */
+/* Research Interest and Experience */
+h2 {
   text-align: center;
+  font-size: 2em;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #2c3e50;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+footer a:hover {
+  color: #1abc9c;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-picture {
+    margin-bottom: 20px;
+  }
+
+  .heading-text {
+    padding-left: 0;
+  }
+
+  .three-column {
+    flex-direction: column;
+  }
+
+  .column {
+    margin: 10px 0;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  body {
+    margin: 0;
+    padding: 20px;
+  }
 }
