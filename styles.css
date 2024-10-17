@@ -1,9 +1,10 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 88px;
+  margin: 50px 120px; /* Increased the side margins */
   padding: 0;
   background: linear-gradient(to bottom, #ffffff, #ffffff);
   color: rgb(68, 69, 71);
+  line-height: 1.6;
 }
 
 header {
@@ -18,9 +19,10 @@ p {
 .header {
   display: flex;
   align-items: center;
-  padding: 10px;
-  /* background-color: #4e54c8; */
+  padding: 20px; /* Add more padding around the header */
   color: rgb(68, 69, 71);
+  background-color: #f7f8fa;
+  border-bottom: 2px solid #e0e0e0;
 }
 
 .heading-text {
@@ -30,20 +32,21 @@ p {
 .profile-picture {
   width: 260px;
   height: 260px;
-  border-radius: 50%; /* Ensures the container is circular */
+  border-radius: 50%; /* Ensure the container is circular */
   background-color: #ffffff;
-  margin-right: 30px;
-  margin-left: 30px;
-  margin-top: 8px;
+  margin-right: 50px; /* Increased margin for broader space */
+  margin-left: 50px;  /* Increased margin for broader space */
+  margin-top: 20px; /* Adjusted margin at the top */
   text-align: center;
   overflow: hidden; /* Hide any overflowing content */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for better visual appeal */
 }
 
 .profile-picture img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensures the image fills the container while maintaining aspect ratio */
-  border-radius: 50%; /* Ensures the image itself is circular */
+  object-fit: cover; /* Maintain aspect ratio and fill the container */
+  border-radius: 50%; /* Ensure the image itself is circular */
 }
 
 
